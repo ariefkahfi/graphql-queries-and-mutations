@@ -93,6 +93,9 @@ const myQueries = `
           }
      }
 
+
+     # examples mutations to mutate data
+     # create,update,delete
      mutation newCar($iCar: CarInput!) {
           createNewCar(carInput: $iCar) {
                ...carsField
